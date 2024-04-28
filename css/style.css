@@ -4,9 +4,9 @@
   --primary-color: #ff0000;
   --light-primary-color: #fc5b5b;
   --dark-primary-color: #970202;
-  --seconday-color: blue;
-  --light-secondary-color: #6c6cfe;
-  --dark-secondary-color: #0000a1;
+  --seconday-color: green;
+  --light-secondary-color: #6cfe73;
+  --dark-secondary-color: #005e0d;
 
   --white-type-zero: #ffffff;
   --white-type-one: #f0f0f0;
@@ -61,6 +61,7 @@ h1 {
   padding: 20px;
   max-width: 70%;
   align-items: center;
+  background-color: var(--white-type-one);
 }
 
 .container > div {
@@ -88,8 +89,8 @@ button {
 }
 
 #open-window:hover {
-  background-color: red;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--white-type-zero);
   transition: all 0.5s ease;
 }
 /* Main end */
